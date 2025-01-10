@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#about">Sobre Mi</a>
+            <a href="#projects">Proyectos</a>
+            <a href="#contact">Contáctame</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="hero">
+            <img src="./img/fotoPoster.png" alt="Escritorio">
+            <div class="intro">
+                <h1>Hola, soy Marcos</h1>
+                <p>Mi curiosidad por saber cómo se hacen las cosas me ha llevado a adentrarme en el mundo de la programación y el desarrollo web.</p>
+                <p>¿Quieres conocerme?</p>
+                <div class="social-icons">
+                    <a href="https://github.com/marcos-sanchez-estech"><img src="./icons/github 1.png" alt="GitHub"></a>
+                    <a href="https://www.instagram.com/marc_os_sr?igsh=b3Z1MXNmbnh4dmth"><img src="./icons/instagram (1) 1.png" alt="Instagram"></a>
+                    <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"><img src="./icons/linkedin (2) 1.png" alt="LinkedIn"></a>
+                    <a href="https://x.com/?lang=es&mx=2"><img src="./icons/logotipos 1.png" alt="Twitter"></a>
+                    <a href="https://mail.google.com/mai"><img src="./icons/gmail 1.png" alt="Gmail"></a>
+                </div>
+            </div>
+        </div>
+
+        
+
+    
+
+        <section id="about">
+
+            <h2>Sobre Mi</h2>
+
+            <hr class="line">
+
+            <div class="sobreMi">
+                
+                <div class="txt">
+                    
+                    <p>Siempre he sido una persona muy inquieta y curiosa, desde pequeño me ha gustado saber el cómo y porqué de todo, la curiosidad, par qué sieven esas líneas de código que nos encontramos, qué hacen o qué es necesario escribir. Soy una persona inquieta y curiosa, por lo que aprender y saber cosas nuevas no es ningún problema.
+        
+                        He trabajado en distintos lugares, siempre dando todo y demostrando de lo que soy capaz, sin importar el reto que se presente.</p>
+                    <a href="pdf/Curriculum Marcos.pdf" download>Descargar CV</a>
+                    </div>
+        
+                    <div class="skills">
+                        <img src="./icons/java.png" alt="Java">
+                        <img src="./icons/swift.png" alt="Swift">
+                        <img src="./icons/kotlin.png" alt="Kotlin">
+                        <img src="./icons/php.png" alt="php">
+                        <img src="./icons/html.png" alt="html">
+                        <img src="./icons/css.png" alt="css">
+                        <img src="./icons/android.png" alt="Android">
+                        <img src="./icons/iOS.png" alt="iOS">
+                        <img src="./icons/mySQL.png" alt="SQL">
+                        <img src="./icons/git.png" alt="GitHub">
+                    </div>
+            </div>
+            
+        </section>
+
+        <section id="projects">
+            <h2>Proyectos</h2>
+
+            <hr class="line">
+
+            <div class="container2">
+                <div class="card">
+                    <figure>
+                        <a href="https://github.com/marcos-sanchez-estech"><img src="./img/Rick and Morty.png" alt=""></a>
+                    </figure>
+                    <div class="contenido">
+                        <h1>App Rick and Morty</h1>
+                        <p>Kotlin</p>
+                    </div>
+        
+                </div>
+
+                <div class="card">
+                    <figure>
+                        <a href="https://github.com/marcos-sanchez-estech"><img src="./img/Disney.png" alt=""></a>
+                    </figure>
+                    <div class="contenido">
+                        <h1>App Disney</h1>
+                        <p>Kotlin</p>
+                    </div>
+                    
+                </div>
+
+                <div class="card">
+                    <figure>
+                        <a href="https://github.com/marcos-sanchez-estech"><img src="./img/Login.png" alt=""></a>
+                    </figure>
+                    <div class="contenido">
+                        <h1>App Login</h1>
+                        <p>Swift</p>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </section>
+
+
+
+      
+
+
+
+
+        <section id="contact">
+            <h2>Contáctame</h2>
+
+            <hr class="line">
+
+            <br><br>
+            <form class="contact-form" action="procesarFormulario" method="post">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="E-mail" required>
+                <textarea name="mensaje" placeholder="Mensaje" rows="5" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        Marcos Rodríguez | FullStack Developer <br>
+        +34 685 68 86 59 | marcos.rodr.sanch@gmail.com
+    </footer>
+
+
+</body>
+</html>

@@ -1,0 +1,301 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3A3A3A;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2em 4em;
+}
+
+
+header nav a {
+    background-color: #b8cfad ;
+    text-decoration: none;
+    color: #3a3a3a;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    margin: 8px;
+    transition: background-color 0.3s;
+    border-radius: 8px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.hero img {
+    max-width: 50%;
+    
+}
+
+.hero .intro {
+    padding: 20px;
+    font-size: 34px;
+    color: white;
+    max-width: 45%;
+    text-align: center;
+}
+
+.social-icons {
+    margin-top: 20px;
+    
+   
+}
+
+.social-icons a {
+    margin: 0 30px;
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+section {
+    padding: 60px;
+    margin-top: 60px;
+}
+
+section h2 {
+    /* border-bottom: 2px solid #B8CFAD; */
+    padding-bottom: 5px;
+}
+
+section p{
+    font-size: 30px;
+    color: white;
+}
+
+.sobreMi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;    
+    padding: 20px;
+    border-radius: 8px;
+    
+}
+
+.txt{
+    flex: 1;
+    padding: 20px;
+    font-size: 1em;
+    line-height: 1.6;
+    color: #000;
+    text-align: center;
+}
+
+.txt a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #B8CFAD;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.skills img {
+    width: 80px;
+    height: 80px;
+}
+
+.skills img:hover{
+    transform: scale(1.2);
+}
+
+.projects {
+    display: flex;
+    gap: 20px;
+}
+
+.container2{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card{
+    
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color:#B8CFAD;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.4);
+    transform: translateY(3%);
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card .contenido{
+    padding: 15px;
+    text-align: center;
+    color: #3A3A3A;
+}
+
+.card .contenido p{
+    line-height: 1.5;
+    color: #3a3a3a;
+    opacity: 50%;
+    font-size: 20px;
+}
+
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.contact-form {
+    background-color: #B8CFAD;
+    padding: 20px;
+    border-radius: 5px;
+    color: #3A3A3A;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #3A3A3A;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #3A3A3A;
+    color: #B8CFAD;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background-color: #B8CFAD;
+    color: #3A3A3A;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #B8CFAD;
+    color: #3A3A3A;
+}
+
+
+.contact-form {
+    background-color: #B8CFAD;
+    padding: 20px;
+    border-radius: 5px;
+    color: #3A3A3A;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #3A3A3A;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #3A3A3A;
+    color: #B8CFAD;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background-color: #B8CFAD;
+    color: #3A3A3A;
+}
+
+
+.line{
+    background-color: #B8CFAD;
+}
+
+
+@media (max-width: 480px){
+    header{
+        padding: 1em;
+    }
+
+    header nav a{
+        margin: 4px;
+        padding: 0.3em 0.6em;
+        font-size: 0.9em;
+    }
+
+    .hero{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero .intro{
+        font-size: 16px;
+    }
+
+    .social-icons img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .skills img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .card{
+        max-width: 100%;
+    }
+
+    footer{
+        font-size: 0.8em;
+    }
+}
