@@ -298,21 +298,21 @@ footer {
 
 @media (max-width: 768px) {
     .hero {
-        flex-direction: column; /* Imagen y texto apilados */
+        flex-direction: column;
         align-items: center;
     }
 
     .hero img {
-        width: 80%; /* Ajuste al ancho del contenedor */
+        width: 80%;
     }
 
     .hero .intro {
-        font-size: 20px; /* Reducir el tamaño de texto */
+        font-size: 20px;
         text-align: center;
     }
 
     .social-icons img {
         width: 25px;
-        height: 25px; /* Reducir íconos para tabletas */
+        height: 25px; 
     }
 }
